@@ -1,0 +1,129 @@
+.animationDiv {
+    width: 0.5%;
+    height: 130vh;
+    margin-top: 60px;
+    background: repeating-linear-gradient(45deg,
+            red 0px,
+            red 20px,
+            white 20px,
+            white 40px,
+            blue 40px,
+            blue 60px);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+    background-size: 100% 200%;
+    animation: moveStripes 2s linear infinite;
+}
+
+@keyframes moveStripes {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 120px;
+    }
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: opacity 0.5s ease;
+    transition: 0.8s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transform: translate(0, -2px);
+    transition: opacity 0.5s ease;
+    transition: 0.8s ease;
+}
+
+.headerDiv {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: #111827;
+    padding: 100px 20px;
+    height: auto;
+}
+
+.hd-d2 p:first-of-type,
+.hd-d2 p:nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hd-d2 {
+    width: 49%;
+    height: 90vh;
+}
+
+
+
+.hd-d2 p:first-of-type {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.hd-d2 p:nth-child(2) {
+    font-size: 50px;
+    color: #f49d0b;
+    font-weight: 700;
+}
+
+.hd-d2 p:nth-child(3) {
+    font-size: 20px;
+    color: #9ca3af;
+    margin-top: 20px;
+}
+
+.hd-d2 button:first-of-type {
+    background-color: #f49d0b;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 20px;
+    color: black;
+    width: 30%;
+    font-size: 16px;
+    box-shadow: 0 5px 10px #f49f0b3e;
+    margin: 20px 20px 0 0;
+    transition: all 0.3s ease;
+}
+
+.hd-d2 button:first-of-type:hover {
+    background-color: #dfa138;
+    box-shadow: 0 8px 10px #db9c2f73;
+}
+
+.hd-d2 button:nth-child(2) {
+    background-color: #f49f0b00;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 15px 20px;
+    color: rgb(249, 249, 249);
+    width: 33%;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    transition: all 0.3s ease;
+}
+
+.hd-d2 button:nth-child(2):hover {
+    background-color: #ffffff0c;
+}
+
+.hd-d2 button:nth-child(2) span {
+    color: #f49d0b;
+}
+
+.hd2-d2 {
+    width: 40%;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: #1f2937;
+    color: #9ca3af;
+    margin-top: 20px;
+}
+
+.hd2-d2 span {
+    color: #00c950;
+}

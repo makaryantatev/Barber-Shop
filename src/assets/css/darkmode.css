@@ -1,0 +1,56 @@
+/* Dark mode variables */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #e0e0e0;
+  --card-bg: #ffffff;
+  --button-bg: #000000;
+  --button-text: #ffffff;
+  --barber-text: #ffffff;
+  --desc-color: grey;
+  --sc1-text: #404040;
+  --nav-bg: white;
+  --nav-bShadow: 0 2px 4px rgba(255, 255, 255, 0.1); 
+  --nav-aColor: #4b5563;
+  --section-subtitle: black;
+  --experience: grey;
+  --price-bShadow:0 10px 15px #0000002e;
+  --bg-contact: #f9f9f9;
+  --contact-p: #555;
+}
+
+.dark {
+  --bg-primary: #111827;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --border-color: #333333;
+  --card-bg: #111827;
+  --button-bg: #ffffff;
+  --button-text: #000000;
+  --barber-text: #111827;
+  --desc-color: rgb(226, 226, 226);  
+  --sc1-text: #c7c7c7;
+  --nav-bg: #111827; 
+  --nav-bShadow: 0 5px 20px rgba(230, 230, 230, 0.292);
+  --nav-aColor: #c7c7c7;
+  --section-subtitle: rgb(249, 249, 249);
+  --experience: white;
+  --price-bShadow: 0 5px 15px #ffffff33;
+  --bg-contact: #111827;
+  --contact-p: rgb(239, 239, 239);
+}
+
+/* Global styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Section1 specific */
+
+
+/* Section2 specific */

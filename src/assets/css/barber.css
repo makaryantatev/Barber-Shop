@@ -1,0 +1,124 @@
+.fDiv{
+    background-color: #111827;
+    padding: 130px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+.fDiv p{
+    color: #9ca3af;
+}
+.fDiv h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.fDiv p:first-of-type{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.fDiv a{
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.fDiv a:hover{
+    color: white;
+}
+.fDiv p:nth-child(3){
+    color: white !important;
+}
+
+
+.bimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.barber-name {
+    font-size: 20px;
+    color: var(--section-subtitle);
+    font-weight: 700;
+}
+
+
+.barber-post {
+    color: #b45309;
+    font-size: 16px;
+}
+
+.post-div {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.post-div span{
+    color: grey;
+}
+.post-p {
+    /* width: 30%; */
+    padding: 5px ;
+    border-radius: 20px;
+    color: #b45309;
+    background-color: #fef3c7;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.desc {
+    font-size: 15px;
+    color: var(--desc-color);
+    height: 90px;
+    margin-top: 10px;
+}
+
+
+.experience {
+    color: var(--experience);
+    font-size: 15px;
+}
+
+
+
+
+.divB{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  margin-top: 50px;
+}
+.bsecdiv{
+  padding: 100px 0 0 0;
+}
+.eachB{
+  width: 49%;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(231, 230, 230);
+  margin-bottom: 30px;
+  transition: 0.3s all;
+}
+.eachB:hover{
+  box-shadow: 0 0 10px rgb(211, 211, 211);
+}
+.eachbImg{
+    width: 47%;
+    height: 100%;
+    /* border-radius: 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.eachpDiv{
+    padding: 20px;
+    width: 53%;
+}

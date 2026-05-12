@@ -1,0 +1,100 @@
+.contact {
+  padding: 80px 0;
+  background: var(--bg-contact);
+}
+
+.contact-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+/* LEFT */
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-left p {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-left input,
+.contact-left textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-left textarea {
+  height: 140px;
+  resize: none;
+}
+
+.contact-left button {
+  background: #d97706;
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-left button:hover {
+  background: #b45309;
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.contact-right h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-right p {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.info-item span {
+  background: #fde68a;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #b45309;
+  height: 45px;
+}
+
+.info-item h4 {
+  margin: 0;
+}
+
+.info-item p {
+  margin: 3px 0;
+  color: var(--contact-p);
+}

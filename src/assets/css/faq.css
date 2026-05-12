@@ -1,0 +1,80 @@
+.section-subtitle {
+    padding: 5px;
+    border-radius: 20px;
+    color: #b45309;
+    background-color: #fef3c7;
+    text-align: center;
+    width: 9%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-title {
+    font-size: 30px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-description {
+    color: gray;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.questDiv {
+    width: 60%;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+
+.eachQuest {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.eachQuest p {
+    font-size: 18px;
+    margin: 20px 0;
+    /* display: inline-block; */
+    text-align: center;
+    font-weight: 700;
+}
+
+.eachQuest div:nth-child(2) {
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    transform: translate(0, 25px);
+}
+
+.eachQuest span {
+    transform: translate(0, 7px);
+    color: #4b5563;
+    cursor: pointer;
+}
+
+.faqSection {
+    padding: 100px 0;
+}
+
+
+.questDiv .answer {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: grey;
+    font-size: 14px;
+}
+
+.questDiv .answer.open {
+    margin-bottom: 20px;
+    max-height: 200px;
+    opacity: 1;
+    transition: all 0.3s ease;
+}

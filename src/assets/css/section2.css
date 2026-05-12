@@ -1,0 +1,98 @@
+.section2 button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--border-color);
+}
+
+.section2 button:hover {
+  opacity: 0.8;
+}
+
+.section2 div > div {
+  background-color: var(--card-bg);
+  /* border: 1px solid var(--border-color); */
+}
+
+hr {
+  border-color: var(--border-color);
+}
+
+.section2{
+    width: 100%;
+    padding: 100px;
+}
+
+.section-subtitle{
+    padding: 5px;
+    border-radius: 20px;
+    color: #b45309;
+    background-color: #fef3c7;
+    text-align: center;
+    width: 8%;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-title{
+    font-size: 30px;
+    margin: 20px auto;
+    font-weight: 700;
+    text-align: center;
+}
+.section-description{
+    /* font-size: 20px; */
+    color: gray;
+    margin: 20px auto;
+    text-align: center;
+}
+.category-buttons{
+    display: flex;
+    justify-content: center;
+}
+.category-buttons button{
+    color: #374151;
+    background-color: #e5e7eb;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin: 10px;
+    font-weight: 700;
+}
+.service-category{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.service-content{
+    padding: 20px;
+}
+
+.service-card{
+    width: 70%;
+    margin: auto;
+}
+
+.service-content{
+    display: flex;
+    justify-content: space-between;
+}
+.service-name{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.service-duration, .service-description{
+    color: grey;
+    font-size: 14px;
+}
+
+.service-price{
+    font-weight: 700;
+    color: #d97706;
+}
+
+
+.category-buttons button.active {
+    background: #d97706;
+    color: #fff;
+    border-color: #d97706;
+}

@@ -1,0 +1,111 @@
+.fDiv{
+    background-color: #111827;
+    padding: 130px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+.fDiv p{
+    color: #9ca3af;
+}
+.fDiv h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+.fDiv p:first-of-type{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.fDiv a{
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.fDiv a:hover{
+    color: white;
+}
+.fDiv p:nth-child(3){
+    color: white !important;
+}
+
+.servDiv, .serv-div2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.eachFServ{
+    width: 32%;
+    border-radius: 25px;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 30px;
+    transition: 0.3s all;
+    margin-bottom: 30px;
+}
+.eachFServ:hover{
+    box-shadow: 0 0 20px rgb(227, 227, 227);
+}
+.icDiv{
+    padding: 10px 13px;
+    width: 12%;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #b45309;
+    background-color: #fef3c7;
+}
+
+
+.eachFServ p:first-of-type {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.eachFServ p:nth-child(3) {
+    color: grey;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.subtask-p{
+    color: var(--experience) !important;
+    font-size: 15px !important;
+    margin-top: 5px;
+    font-weight: 100 !important;
+}
+.subtask span{
+    color: #b45309;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.serv-div2 div{
+    width: 23%;
+    margin: auto;
+    text-align: center;
+}
+.serv-div2 div div:first-of-type{
+    background-color: #d97706;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    width: 15%;
+    height: 45px;
+    padding-top: 8px;
+    text-align: center;
+}
+.serv-div2 p:first-of-type {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.serv-div2 p:nth-child(3) {
+    color: grey;
+    font-size: 15px;
+    margin-top: 5px;
+}

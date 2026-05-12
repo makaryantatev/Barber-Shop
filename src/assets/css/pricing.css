@@ -1,0 +1,118 @@
+.pr-d p:first-of-type{
+    font-size: 18px;
+    font-weight: 700;
+}
+.pr-d p:nth-child(2){
+    font-size: 14px;
+    color: gray;
+}
+.pr-d p:nth-child(3){
+    font-size: 45px;
+    font-weight: 700;
+}
+.pr-d p:nth-child(4){
+    font-size: 14px;
+    color: gray;    
+}
+.pr-d p{
+    margin: 10px 0;
+    text-align: center;
+}
+.priceDiv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.prc-p{
+    margin-top: 30px;
+}
+.prc-p p{
+    margin: 15px 0;
+    font-size: 15px;
+    color: var(--experience);
+}
+.priceDiv span{
+    font-size: 20px;
+    color: #d97706;
+    margin-right: 8px;
+}
+.pr-d2{
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #ef9630;
+}
+.pr-d1, .pr-d3{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--price-bShadow);
+    transition: 0.3s ease;
+}
+.pr-d1:hover, .pr-d3:hover{
+    box-shadow: 0 10px 15px #0000002e;
+}
+.greyspan{
+    color: grey !important;
+}
+.pr-d1 button, .pr-d3 button{
+    width: 100%;
+    background-color: #e5e7eb;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.pr-d1 button:hover, .pr-d3 button:hover{
+    background-color: #d1d5db;
+    cursor: pointer;
+}
+.priceDiv button a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.pr-d2 button{
+    width: 100%;
+    background-color: #ef9630;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.pr-d2 button:hover{
+    background-color: #d97706;
+    cursor: pointer;
+}
+.mecPp{
+    margin-top: 40px;
+    text-align: center;
+    color: var(--experience);
+    font-size: 17px !important;
+}
+.pr-d2::after{
+    content: 'Most Popular';
+    position: absolute;
+    top: 78%;
+    left: 46%;
+    width: 8%;
+    text-align: center;
+    height: 23px;
+    background-color: #ef9630;
+    border-radius: 20px;
+    font-size: 14px;
+    padding-top: 3px;
+}
+.fDiv button{
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.fDiv button:nth-child(2){
+    background-color: transparent;
+    color: white;
+    border: 1px solid #878787;
+}

@@ -1,0 +1,70 @@
+.sc-signUp{
+    width: 100%;
+    height: 90vh;
+    background-color: #111827;
+    margin-top: 60px;
+    /* padding-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signUpDiv{
+    width: 25%;
+}
+.sc-signUp h1{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.sc-signUp input{
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.sc-signUp label{
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 15px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.btnSignUp{
+    background-color: #fbbf24;
+    color: white;
+    padding: 12px 17px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(204, 204, 204, 0.564);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnSignUp:hover{
+    background-color: #fbbb17;
+    transform: translate(0, -3px);
+}
+.error-message{
+    margin: 10px 0;
+    color: #fbbf24;
+    animation: error 0.5s linear 1;
+}
+
+@keyframes error{
+    0%, 50% ,100%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0, -5px);
+    }
+    75%{
+        transform: translate(0, -5px);
+    }
+}
