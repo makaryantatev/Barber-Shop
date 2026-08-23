@@ -8,7 +8,7 @@ export default function Section2() {
 
     const getService = async () => {
         try {
-            const req = await fetch('http://localhost:3001/getServices');
+            const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/getServices');
             const res = await req.json()
             setData(res);
         } catch (err) {

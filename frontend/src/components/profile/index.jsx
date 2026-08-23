@@ -25,7 +25,7 @@ export default function Profile() {
 
     const getData = async (userId) => {
         try {
-            const req = await fetch(`http://localhost:3001/getUsersLoggedIn/${userId}`);
+            const req = await fetch(`https://barber-shop-pearl-sigma.vercel.app/getUsersLoggedIn/${userId}`);
             const res = await req.json();
             setSignIns(res);
         } catch (err) {
@@ -39,7 +39,7 @@ export default function Profile() {
         const signInId = localStorage.getItem("signInId");
 
         if (signInId) {
-            await fetch("http://localhost:3001/logout", {
+            await fetch("https://barber-shop-pearl-sigma.vercel.app/logout", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ signInId })

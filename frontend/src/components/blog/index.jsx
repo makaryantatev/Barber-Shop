@@ -10,7 +10,7 @@ export default function Blog() {
 
   const getData = async () => {
     try {
-      const req = await fetch('http://localhost:3001/getblog');
+      const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/getblog');
       const res = await req.json()
       setData(res)
     } catch (err) {

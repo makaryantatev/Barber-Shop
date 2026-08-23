@@ -9,7 +9,7 @@ export default function Faq() {
 
     const getData = async () => {
         try {
-            const req = await fetch('http://localhost:3001/getFaq');
+            const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/getFaq');
             const res = await req.json();
             setData(res)
         } catch (err) {

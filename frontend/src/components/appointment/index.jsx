@@ -25,8 +25,8 @@ export default function Appointment() {
 
     const getData = async () => {
         try {
-            const req = await fetch('http://localhost:3001/fullServHeader');
-            const barbRes = await fetch('http://localhost:3001/getBarbers');
+            const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/fullServHeader');
+            const barbRes = await fetch('https://barber-shop-pearl-sigma.vercel.app/getBarbers');
             const res = await req.json();
             const barbReq = await barbRes.json();
 
@@ -44,7 +44,7 @@ export default function Appointment() {
 
     const handleSubmit = async () => {
         try {
-            await fetch('http://localhost:3001/appointments', {
+            await fetch('https://barber-shop-pearl-sigma.vercel.app/appointments', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

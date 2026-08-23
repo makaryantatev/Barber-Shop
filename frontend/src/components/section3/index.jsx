@@ -19,7 +19,7 @@ export default function Section3() {
 
     const getData = async () => {
         try {
-            const req = await fetch('http://localhost:3001/getBarbers');
+            const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/getBarbers');
             const res = await req.json()
             setData(res)
         } catch (err) {

@@ -50,7 +50,7 @@ export default function SignUp() {
     setLoading(true);
     
     try {
-      const req = await fetch("http://localhost:3001/userSignUp", {
+      const req = await fetch("https://barber-shop-pearl-sigma.vercel.app/userSignUp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

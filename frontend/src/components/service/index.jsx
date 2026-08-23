@@ -22,7 +22,7 @@ export default function Service() {
 
     const getData = async () => {
         try {
-            const req = await fetch('http://localhost:3001/fullServ');
+            const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/fullServ');
             const res = await req.json()
             setData(res)
         } catch (err) {
