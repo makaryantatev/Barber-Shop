@@ -12,7 +12,7 @@ export default function About() {
 
     const getData = async () => {
         try {
-            const req = await fetch('https://barber-shop-pearl-sigma.vercel.app/getBarbers');
+            const req = await fetch('https://barber-shop-api.vercel.app/getBarbers');
             const res = await req.json()
             setData(res)
         } catch (err) {

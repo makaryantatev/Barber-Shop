@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
 
     const loadThemeFromDB = async () => {
         try {
-            const response = await fetch('https://barber-shop-pearl-sigma.vercel.app/getTheme');
+            const response = await fetch('https://barber-shop-api.vercel.app/getTheme');
             const data = await response.json();
             const dbTheme = data.theme === 'dark';
             setDarkMode(dbTheme);
@@ -35,7 +35,7 @@ export const ThemeProvider = ({ children }) => {
 
     const saveThemeToDB = async (themeValue) => {
         try {
-            await fetch('https://barber-shop-pearl-sigma.vercel.app/updateTheme', {
+            await fetch('https://barber-shop-api.vercel.app/updateTheme', {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

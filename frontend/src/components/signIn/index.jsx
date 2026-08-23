@@ -29,7 +29,7 @@ export default function SignIn() {
     setLoading(true);
     
     try {
-      const req = await fetch("https://barber-shop-pearl-sigma.vercel.app/login", {
+      const req = await fetch("https://barber-shop-api.vercel.app/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

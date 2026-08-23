@@ -35,7 +35,7 @@ export default function Contact() {
 
         if (nameValid && emailValid && subjectValid && messageValid) {
             try {
-                await fetch("https://barber-shop-pearl-sigma.vercel.app/contacts", {
+                await fetch("https://barber-shop-api.vercel.app/contacts", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

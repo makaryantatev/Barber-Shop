@@ -10,7 +10,7 @@ export default function SingleBlog() {
 
     const getData = async () => {
         try {
-            const req = await fetch(`https://barber-shop-pearl-sigma.vercel.app/getblog/${id}`);
+            const req = await fetch(`https://barber-shop-api.vercel.app/getblog/${id}`);
             const res = await req.json()
             setData(res)
         } catch (err) {

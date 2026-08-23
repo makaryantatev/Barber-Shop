@@ -20,7 +20,7 @@ export default function ReviewSection({
 
   const fetchReviews = async () => {
     try {
-      const res = await fetch('https://barber-shop-pearl-sigma.vercel.app/reviews');
+      const res = await fetch('https://barber-shop-api.vercel.app/reviews');
       const data = await res.json();
       console.log(data);
       
