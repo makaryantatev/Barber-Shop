@@ -21,7 +21,6 @@ import bcrypt from 'bcrypt';
 const saltRounds = 10;
 
 const app = express();
-const PORT = 3001;
 
 app.use(cors());
 app.use(express.json());
@@ -411,10 +410,5 @@ app.get('/getblog/:id', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on ${PORT}`);
-});
-
-
-
+export default app;
 
